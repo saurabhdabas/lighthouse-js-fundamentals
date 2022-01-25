@@ -5,6 +5,9 @@ while(num < 201){
   else if( num % 4 === 0){
     console.log("Lighthouse")
   }
+  else if( num % 3 === 0 && num % 4 === 0){
+    console.log("Loopy-Lighthouse")
+  }
   else{
     console.log(num);
   }
